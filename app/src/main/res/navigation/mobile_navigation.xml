@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="UTSMPL"
+    app:startDestination="@+id/PERHITUNGAN">
+
+    <fragment
+        android:id="@+id/PERHITUNGAN"
+        android:name="mahasiswa.ti5j_2011500047.ui.home.HomeFragment"
+        android:label="UTSMPL"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/BIODATA"
+        android:name="mahasiswa.ti5j_2011500047.ui.gallery.GalleryFragment"
+        android:label="UTSMPL"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/KELUAR"
+        android:name="mahasiswa.ti5j_2011500047.ui.slideshow.SlideshowFragment"
+        android:label="UTSMPL"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
